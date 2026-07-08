@@ -48,7 +48,7 @@ import simon from './assets/work_logo/simon.png';
 import spotify from './assets/work_logo/spotify.png';
 import todo from './assets/work_logo/todo.png';
 import wanderlust from './assets/work_logo/wanderlust.png';
-import whatsapp_chats from './assets/work_logo/whatsapp_chats';
+import whatsapp_chats from './assets/work_logo/whatsapp_chats.png';
 
 
 export const SkillsInfo = [
@@ -240,7 +240,7 @@ export const SkillsInfo = [
       webapp: "https://wanderlust-rz6g.onrender.com/listings",
     },
       {
-      id: 2,
+      id: 6,
       title: "Whatsapp_Chats",
       description:
        "A WhatsApp-inspired Chat CRUD web application built with Node.js, Express.js, MongoDB, Mongoose, and EJS. It allows users to create, view, edit, and delete chat messages through a clean and responsive interface. The project demonstrates RESTful routing, server-side rendering, MongoDB integration, form handling, and full CRUD functionality.",
