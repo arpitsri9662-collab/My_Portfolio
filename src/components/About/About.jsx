@@ -41,15 +41,15 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 1 year of experience in
+            I am a full-stack developer with over 2 years of experience in developing
             building scalable web applications. Skilled in both front-end and
             back-end development, I specialize in the MERN stack and other
-            modern technologies like Lang-chain, Lang-graph, Redis, Qdrant, RAG, CI/CD Pipelines, Docker, K8s, AWS Deployment to create seamless user experiences and
+            modern technologies like Next.Js, TypeScript, Microservices, Gen AI, Agentic AI, AI Agents, Load Balancing, LLMs, Vector DBs, Lang-chain, Lang-graph, Redis, Qdrant, RAG, CI/CD Pipelines, Docker, K8s, AWS Deployment to create seamless user experiences and
             efficient solutions.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1DuXWAr7vVMSCtrizI2ajXMlOFGywk9dg/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1WkeJ60OuRxa6NiAo_ZRE_QRaz8kgELyv/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -86,3 +86,4 @@ const About = () => {
 };
 
 export default About;
+

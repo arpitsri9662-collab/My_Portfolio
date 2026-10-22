@@ -33,79 +33,150 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
 
+// Additional Frontend & Backend Logos
+import viteLogo from './assets/tech_logo/vite.png';
+import mongooseLogo from './assets/tech_logo/mongoose.png';
+import redisLogo from './assets/tech_logo/redis.png';
+import socketIoLogo from './assets/tech_logo/socketio.png';
+import jwtLogo from './assets/tech_logo/jwt.png';
+import passportLogo from './assets/tech_logo/passport.png';
+
+// AI Engineering & Generative AI
+import langchainLogo from './assets/tech_logo/langchain.png';
+import langgraphLogo from './assets/tech_logo/langgraph.png';
+import ragLogo from './assets/tech_logo/rag.png';
+import ollamaLogo from './assets/tech_logo/ollama.png';
+import puppeteerLogo from './assets/tech_logo/puppeteer.png';
+
+// DevOps, Cloud & CI/CD
+import dockerLogo from './assets/tech_logo/docker.png';
+import kubernetesLogo from './assets/tech_logo/kubernetes.png';
+import awsLogo from './assets/tech_logo/aws.png';
+import nginxLogo from './assets/tech_logo/nginx.png';
+import githubActionsLogo from './assets/tech_logo/githubactions.png';
+import cicdLogo from './assets/tech_logo/cicd.png';
+
+// Additional Tools & Platforms
+import cloudinaryLogo from './assets/tech_logo/cloudinary.png';
+import renderLogo from './assets/tech_logo/render.png';
+import razorpayLogo from './assets/tech_logo/razorpay.png';
+import bullmqLogo from './assets/tech_logo/bullmq.png';
+import nextAuthLogo from './assets/tech_logo/nextauth.png';
+
+// System Design & Architecture
+import microservicesLogo from './assets/tech_logo/microservices.png';
+import systemDesignLogo from './assets/tech_logo/systemdesign.png';
+import loadBalancingLogo from './assets/tech_logo/loadbalancing.png';
+import networkingLogo from './assets/tech_logo/networking.png';
+import sqlLogo from './assets/tech_logo/sql.png';
+
+
 // Experience Section Logo's
 import decodeLogo from './assets/company_logo/decode_logo.png';
-import umLogo from './assets/company_logo/UM_logo.png';
+import Cognifyz from './assets/company_logo/Cognifyz.png';
+import PinnacleLabsLogo from './assets/company_logo/PinnacleLabsLogo.png';
 
 // Education Section Logo's
 import schoolLogo from './assets/education_logo/school_logo.png';
 import collegeLogo from './assets/education_logo/college_logo.png';
 
 // Project Section Logo's
-import photography from './assets/work_logo/photography.png';
-import quora from './assets/work_logo/quora.png';
-import simon from './assets/work_logo/simon.png';
-import spotify from './assets/work_logo/spotify.png';
-import todo from './assets/work_logo/todo.png';
+import agentVerse from './assets/work_logo/agentVerse.png';
+import aiInterview from './assets/work_logo/aiInterview.png';
+import videoConferencing from './assets/work_logo/videoConferencing.png';
+import Zerodha from './assets/work_logo/Zerodha.png';
+import Arpit_s_GPT from './assets/work_logo/Arpit_s_GPT.png';
 import wanderlust from './assets/work_logo/wanderlust.png';
-import whatsapp_chats from './assets/work_logo/whatsapp_chats.png';
+import Rydex from './assets/work_logo/Rydex.png';
 
 
 export const SkillsInfo = [
-  {
-    title: 'Frontend',
-    skills: [
-      { name: 'HTML', logo: htmlLogo },
-      { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
-      { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
-      { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
-      { name: 'Material UI', logo: materialuiLogo },
-      { name: 'Bootstrap', logo: bootstrapLogo },
-    ],
-  },
-  {
-    title: 'Backend',
-    skills: [
-      { name: 'Springboot', logo: springbootLogo },
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MySQL', logo: mysqlLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-      { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
-    ],
-  },
-  {
-    title: 'Languages',
-    skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
-      { name: 'JavaScript', logo: javascriptLogo },
-      { name: 'TypeScript', logo: typescriptLogo },
-    ],
-  },
-  {
-    title: 'Tools',
-    skills: [
-      { name: 'Git', logo: gitLogo },
-      { name: 'GitHub', logo: githubLogo },
-      { name: 'VS Code', logo: vscodeLogo },
-      { name: 'Postman', logo: postmanLogo },
-      { name: 'Compass', logo: mcLogo },
-      { name: 'Vercel', logo: vercelLogo },
-      { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
-    ],
-  },
+{
+title: "Frontend",
+skills: [
+{ name: "HTML", logo: htmlLogo },
+{ name: "CSS", logo: cssLogo },
+{ name: "SASS", logo: sassLogo },
+{ name: "JavaScript", logo: javascriptLogo },
+{ name: "React JS", logo: reactjsLogo },
+{ name: "Angular", logo: angularLogo },
+{ name: "Redux", logo: reduxLogo },
+{ name: "Next JS", logo: nextjsLogo },
+{ name: "Tailwind CSS", logo: tailwindcssLogo },
+{ name: "GSAP", logo: gsapLogo },
+{ name: "Material UI", logo: materialuiLogo },
+{ name: "Bootstrap", logo: bootstrapLogo },
+{ name: "TypeScript", logo: typescriptLogo },
+{ name: "Vite", logo: viteLogo },
+],
+},
+
+{
+title: "Backend & Databases",
+skills: [
+{ name: "Springboot", logo: springbootLogo },
+{ name: "Node JS", logo: nodejsLogo },
+{ name: "Express JS", logo: expressjsLogo },
+{ name: "MySQL", logo: mysqlLogo },
+{ name: "MongoDB", logo: mongodbLogo },
+{ name: "Firebase", logo: firebaseLogo },
+{ name: "PostgreSQL", logo: postgreLogo },
+{ name: "Mongoose", logo: mongooseLogo },
+{ name: "Redis", logo: redisLogo },
+{ name: "JWT", logo: jwtLogo },
+{ name: "Passport.js", logo: passportLogo },
+{ name: "NextAuth", logo: nextAuthLogo },
+{ name: "Socket.IO", logo: socketIoLogo },
+{ name: "BullMQ", logo: bullmqLogo },
+{ name: "Razorpay", logo: razorpayLogo },
+],
+},
+
+{
+title: "Programming Languages",
+skills: [
+{ name: "C", logo: cLogo },
+{ name: "C++", logo: cppLogo },
+{ name: "Java", logo: javaLogo },
+{ name: "Python", logo: pythonLogo },
+{ name: "C-Sharp", logo: csharpLogo },
+{ name: "JavaScript", logo: javascriptLogo },
+{ name: "TypeScript", logo: typescriptLogo },
+{ name: "SQL", logo: sqlLogo },
+],
+},
+
+{
+title: "DevOps & Cloud",
+skills: [
+{ name: "Git", logo: gitLogo },
+{ name: "GitHub", logo: githubLogo },
+{ name: "VS Code", logo: vscodeLogo },
+{ name: "Postman", logo: postmanLogo },
+{ name: "Compass", logo: mcLogo },
+{ name: "Vercel", logo: vercelLogo },
+{ name: "Netlify", logo: netlifyLogo },
+{ name: "Figma", logo: figmaLogo },
+{ name: "Docker", logo: dockerLogo },
+{ name: "Kubernetes", logo: kubernetesLogo },
+{ name: "AWS", logo: awsLogo },
+{ name: "GitHub Actions", logo: githubActionsLogo },
+{ name: "CI/CD", logo: cicdLogo },
+{ name: "Nginx", logo: nginxLogo },
+{ name: "Render", logo: renderLogo },
+{ name: "Cloudinary", logo: cloudinaryLogo },
+],
+},
+
+{
+title: "System Design & Networking",
+skills: [
+{ name: "System Design", logo: systemDesignLogo },
+{ name: "Microservices", logo: microservicesLogo },
+{ name: "Load Balancing", logo: loadBalancingLogo },
+{ name: "Computer Networks", logo: networkingLogo },
+],
+},
 ];
 
   export const experiences = [
@@ -114,7 +185,7 @@ export const SkillsInfo = [
       img: decodeLogo,
       role: "Fullstack Developer",
       company: "Decode Labs Pvt Ltd",
-      date: "June 2026 - Present",
+      date: "June 2026 - July 2026",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -129,12 +200,13 @@ export const SkillsInfo = [
         " Next Js",
       ],
     },
+
     {
       id: 1,
-      img: umLogo,
+      img: Cognifyz,
       role: "Fullstack Developer",
       company: "Unified Mentorship",
-      date: "July 2026 - September 2026",
+      date: "July 2026 - August 2026",
       desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
       skills: [
         "ReactJS",
@@ -146,8 +218,26 @@ export const SkillsInfo = [
         "SQL",
       ],
     },
-  ];
-  
+  {
+id: 2,
+img: PinnacleLabsLogo,
+role: "Full Stack Developer Intern",
+company: "Pinnacle Labs",
+date: "May 2026 - June 2026",
+desc: "Worked on full-stack web development, contributing to the development of responsive and user-friendly web applications. Applied frontend and backend technologies to build features, improve application functionality, and deliver efficient solutions while strengthening practical software development skills.",
+skills: [
+"ReactJS",
+"JavaScript",
+"HTML",
+"CSS",
+"Tailwind CSS",
+"Node.js",
+"Express.js",
+"MongoDB",
+],
+},
+];
+
   export const education = [
     {
       id: 1,
@@ -179,58 +269,134 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+  {
+id: 1,
+title: "Arpit-AgentVerse – Multi-Agent AI Platform",
+description:
+"A multi-agent AI platform for chat, coding, PDF analysis, RAG, web search, and image understanding, built with LangChain, LangGraph, MERN, Redis, and AWS.",
+image: agentVerse,
+tags: [
+"React",
+"Vite",
+"Node.js",
+"Express.js",
+"MongoDB",
+"Redis",
+"LangChain",
+"LangGraph",
+"RAG",
+"Microservices",
+"Firebase",
+"Docker",
+"AWS ECS",
+"AWS CloudFront",
+"Razorpay",
+],
+github: "https://github.com/arpitsri9662-collab/Arpit-AgentVerse",
+webapp: "https://agentverse-frontend.vercel.app/",
+},
+
     {
-      id: 0,
-      title: "Photography Studio",
-      description:
-        "A responsive Photography Sidebar Menu built using HTML5 and CSS3. This project features a modern sliding sidebar navigation with smooth CSS transitions, Font Awesome icons, and Google Fonts. It demonstrates responsive web design, clean UI development, and an interactive navigation menu created entirely with HTML and CSS, without JavaScript.",
-      image: photography,
-      tags: ["HTML", "CSS", "JavaScript", "Bootstrap"],
-      github: "https://github.com/arpitsri9662-collab/Photography.git",
-      webapp: "https://arpitsri9662-collab.github.io/Photography/",
-    },
+id: 2,
+title: "AI Mock Interview Platform",
+description:
+"An AI-powered interview platform featuring resume-based questions, answer evaluation, live coding, video recording, body-language analysis, and performance analytics.",
+image: aiInterview,
+tags: [
+"React",
+"TypeScript",
+"Node.js",
+"Express.js",
+"MongoDB",
+"OpenAI API",
+"Monaco Editor",
+"MediaPipe",
+"WebRTC",
+"Cloudinary",
+"JWT",
+"Tailwind CSS",
+"Recharts",
+"Socket.IO",
+],
+github: "https://github.com/arpitsri9662-collab/Arpit-AI-Mock-Interview.git",
+webapp: "YOUR_LIVE_DEMO_URL",
+},
+   {
+id: 3,
+title: "Video Conferencing Web Application",
+description:
+"A real-time video conferencing app with video calls, audio calls, screen sharing, and secure authentication, built using React, Node.js, Socket.IO, WebRTC, and MongoDB.",
+image: videoConferencing,
+tags: [
+"React.js",
+"JavaScript",
+"Node.js",
+"Express.js",
+"MongoDB",
+"Mongoose",
+"Socket.IO",
+"WebRTC",
+"Material UI",
+"Axios",
+"REST API",
+"Vercel",
+"Render",
+],
+github: "https://github.com/arpitsri9662-collab/video-conferencing",
+webapp: "https://video-conferencing-frontend-seven.vercel.app/",
+},
+
     {
-      id: 1,
-      title: "Quora-Posts",
-      description:
-        "A responsive Quora-inspired CRUD web application built with Node.js, Express.js, EJS, and Method Override. Users can create, view, edit, and delete posts through a clean, intuitive interface. The project demonstrates RESTful routing, server-side rendering, UUID-based unique IDs, and basic CRUD operations without a database.",
-      image: quora,
-      tags: ["Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript", "RESTFUL APIs"],
-      github: "https://github.com/arpitsri9662-collab/Quora_Posts.git",
-      webapp: "https://quora-posts-eta.vercel.app/posts",
-    },
+id: 4,
+title: "Zerodha Trading Platform Clone",
+description:
+"A MERN-based trading platform featuring stock holdings, active positions, order management, and portfolio tracking, built with React, Node.js, Express.js, and MongoDB.",
+image: Zerodha,
+tags: [
+"React.js",
+"JavaScript",
+"Node.js",
+"Express.js",
+"MongoDB",
+"Mongoose",
+"REST API",
+"Axios",
+"React Router",
+"Bootstrap",
+"Netlify",
+],
+github: "https://github.com/arpitsri9662-collab/Zerodha-Trading-Platform.git",
+webapp: "https://zerodhaa-trading-platform.netlify.app/",
+},
+
     {
-      id: 2,
-      title: "Simon Says Game",
-      description:
-       "Simon Says Game is a fun memory-based web game built with HTML, CSS, and JavaScript. Players repeat an increasingly complex sequence of colors to advance through levels. The project demonstrates DOM manipulation, event handling, random sequence generation, game logic, and responsive UI design using core front-end technologies.",
-      image : simon,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/arpitsri9662-collab/Simon_Game.git",
-      webapp: "https://arpitsri9662-collab.github.io/Simon_Game/",
-    },
+id: 5,
+title: "Arpit-s-GPT – AI Chatbot Assistant",
+description:
+"An AI chatbot featuring intelligent responses, user authentication, persistent chat history, and conversation management, built with React, Node.js, Express.js, MongoDB, and OpenRouter, deployed on AWS EC2 with CI/CD automation.",
+image: Arpit_s_GPT,
+tags: [
+"React.js",
+"Vite",
+"JavaScript",
+"Node.js",
+"Express.js",
+"MongoDB",
+"Mongoose",
+"OpenRouter API",
+"REST API",
+"AWS EC2",
+"Nginx",
+"PM2",
+"GitHub Actions",
+"CI/CD",
+],
+github: "https://github.com/arpitsri9662-collab/Arpit-s-GPT",
+webapp: "https://arpit-s-gpt.vercel.app/",
+},
+
     {
-      id: 3,
-      title: "Spotify Clone",
-      description:
-        "This project is a responsive Spotify Web Player Clone developed using HTML5 and CSS3. It recreates the modern interface of Spotify with a sidebar, sticky navigation, playlist cards, and a music player section. The project focuses on clean UI design, responsive layouts, and effective use of CSS Flexbox. It was built to strengthen frontend development.",
-      image: spotify,
-      tags: ["HTML5", "CSS3", "Bootstrap"],
-      github: "https://github.com/arpitsri9662-collab/Spotify-Clone.git",
-      webapp: "https://arpitsri9662-collab.github.io/Spotify-Clone/",
-    },
-    {
-      id: 4,
-      title: "Todo Listing App",
-      description:
-        "A simple and efficient Todo App to help you manage daily tasks easily. Add and delete tasks with a clean and minimal interface. Stay organized, track your progress, and boost productivity by keeping all your important tasks in one place. Built for smooth and fast task management experience.",
-      image: todo,
-      tags: ["JavaScript","HTML", "CSS"],
-      github: "https://github.com/arpitsri9662-collab/Todo_List.git",
-      webapp: " https://arpitsri9662-collab.github.io/Todo_List/",
-    },
-    {
-      id: 5,
+      id: 6,
       title: "Wanderlust",
       description:
         "A full-stack Airbnb-inspired travel accommodation booking platform built with Node.js, Express.js, MongoDB, EJS, Passport.js, Cloudinary, and Mapbox, featuring user authentication, property listings, reviews, image uploads, and interactive maps.",
@@ -239,14 +405,30 @@ export const SkillsInfo = [
       github: "https://github.com/arpitsri9662-collab/Wanderlust.git",
       webapp: "https://wanderlust-rz6g.onrender.com/listings",
     },
-      {
-      id: 6,
-      title: "Whatsapp_Chats",
-      description:
-       "A WhatsApp-inspired Chat CRUD web application built with Node.js, Express.js, MongoDB, Mongoose, and EJS. It allows users to create, view, edit, and delete chat messages through a clean and responsive interface. The project demonstrates RESTful routing, server-side rendering, MongoDB integration, form handling, and full CRUD functionality.",
-      image : whatsapp_chats,
-      tags: ["HTML", "CSS", "JavaScript","Mongo Atlas", "CRUD", "EJS", "ExpressJs", "NodeJs", "Render"],
-      github: "https://github.com/arpitsri9662-collab/Whatsapp_Chats.git",
-      webapp: "https://whatsapp-chats.onrender.com",
-    },
+
+  {
+id: 7,
+title: "Rydex – Ride Booking Platform",
+description:
+"A full-stack ride-booking platform with user, partner, and admin dashboards, Google authentication, video KYC, ride management, and Razorpay integration, built with Next.js, TypeScript, MongoDB, and Node.js.",
+image: Rydex,
+tags: [
+"Next.js",
+"React",
+"TypeScript",
+"Tailwind CSS",
+"Node.js",
+"MongoDB",
+"Mongoose",
+"Auth.js",
+"Google OAuth",
+"Socket.IO",
+"Razorpay",
+"Cloudinary",
+"Vercel",
+"Render",
+],
+github: "https://github.com/arpitsri9662-collab/Rydex",
+webapp: "https://rydex-sepia.vercel.app/",
+},
   ];  
